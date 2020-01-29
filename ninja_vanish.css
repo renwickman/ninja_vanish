@@ -1,0 +1,15 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+
+button {
+    background-color: green;
+    color: black;
+}

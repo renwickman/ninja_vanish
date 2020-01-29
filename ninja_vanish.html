@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="ninja_vanish.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+
+        $('.ninja').click(function(){
+            $(this).hide()
+        })
+        $('button').click(function(){
+            $('.ninja').show()
+        })
+
+        });
+
+    </script>
+    <title>Ninja Vanish</title>
+</head>
+<body>
+    <h1>Ninja Vanish!</h1>
+    <p>
+    <img class="ninja" src="images/ninja_black.png" alt="ninja_black">
+    <img class="ninja" src="images/ninja_blue.png" alt="ninja_blue">
+    <img class="ninja" src="images/ninja_green.png" alt="ninja_green">
+    <img class="ninja" src="images/ninja_orange.png" alt="ninja_orange">
+    </p>
+    <p>
+    <img class="ninja" src="images/ninja_purple.png" alt="ninja_purple">
+    <img class="ninja" src="images/ninja_red.png" alt="ninja_red">
+    <img class="ninja" src="images/ninja_white.png" alt="ninja_white">
+    <img class="ninja" src="images/ninja_yellow.png" alt="ninja_yellow">
+    </p>
+    <button class="button">Restore</button>
+</body>
+</html>
